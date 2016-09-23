@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Hello World
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+    <ion-card>
+        <ion-card-content>
+            Hello {{name}}
+
+            <div>
+                <button light block [navPush]="aboutPage">Go To About</button>
+            </div>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
